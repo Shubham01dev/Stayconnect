@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(blue.jpg);
+    background-size:auto;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    text-align: center;  
+}
+
+nav .navbar-brand{
+    margin-left: 50px;
+    
+}
+
+form {
+    
+    border-radius: 0.8rem;
+    background-color: azure;
+    margin-top: 10%;
+    border: 1px solid red;
+    height: 50vh;
+    margin-left: 35%;
+    margin-right: 30%;
+    font-weight: 600;
+
+    
+}
+.button{
+    
+    position: relative;
+    top: 30px;
+    right:  25px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 0.8rem;
+    width: 100px;
+     
+}
+.sing{
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 9%;
+    font-weight: 700;
+}
+
+#margin{
+    margin-bottom: 2px;
+    margin-left:10px;
+}
+
+@media (max-width:1449px){
+    form {
+    
+        border-radius: 0.8rem;
+        background-color: azure;
+        margin-top: 12%;
+        border: 1px solid red;
+        height: 50vh;
+        margin-left: 30%;
+        margin-right: 25%;
+        font-weight: 600;
+    }
+
+    .button{
+    
+        position: relative;
+        bottom: 180px;
+        left:  2px;
+        margin-top: 10px;
+        padding: 5px;
+        border-radius: 0.8rem;
+        width: 100px;
+         
+    }
+    .sing{
+        display: inline-block;
+        margin-top: 50px;
+        margin-right: 0%;
+        font-weight: 700;
+        
+    }
+}
+
+@media (max-width:1090px){
+    form {
+    
+        border-radius: 0.8rem;
+        background-color: azure;
+        margin-top: 15%;
+        border: 1px solid red;
+        height: 50vh;
+        margin-left: 30%;
+        margin-right: 20%;
+        font-weight: 600;
+    }
+    .sing{
+        display: inline-block;
+        margin-top: 50px;
+        margin-right: 3%;
+        font-weight: 700;
+    }
+    .button{
+    
+        position: relative;
+        bottom: 180px;
+        left:  0px;
+        margin-top: 10px;
+        padding: 5px;
+        border-radius: 0.8rem;
+        width: 100px;
+         
+    }
+}
+@media (max-width:860px){
+    form {
+    
+        border-radius: 0.8rem;
+        background-color: azure;
+        margin-top: 20%;
+        border: 1px solid red;
+        height: 50vh;
+        margin-left: 25%;
+        margin-right: 15%;
+        font-weight: 600;
+    }
+    
+}
+@media (max-width:573px){
+    form {
+    
+        border-radius: 0.8rem;
+        background-color: azure;
+        margin-top: 20%;
+        border: 1px solid red;
+        height: 60vh;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-weight: 600;
+    }
+    #margin{
+        margin-left:10px;
+        margin-bottom: 0px;
+        }
+    .button{
+    
+        position: relative;
+        margin-top: 0px;
+        left: 0px;
+        padding: 5px;
+        border-radius: 0.8rem;
+        width: 100px;
+        bottom: 180px;
+        
+    }
+    .sing{
+        display: inline-block;
+        margin-top: 50px;
+        margin-right: 0%;
+        font-weight: 700;
+    }
+    
+}
+
+@media(max-width:375px){
+
+    form {
+    
+        border-radius: 0.8rem;
+        background-color: azure;
+        margin-top: 20%;
+        border: 1px solid red;
+        height: 70vh;
+        margin-left: 11%;
+        margin-right: 15%;
+        font-weight: 600;
+        width: 290px;
+    }
+   
+}

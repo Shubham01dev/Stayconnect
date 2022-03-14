@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Connect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="singup.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light " style="background-color: #f8edeb">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: #00b4d8; font-weight: 600; text-decoration: underline;"><i
+                    class="fa-solid fa-link"></i>St@yConnect</a>
+        </div>
+    </nav>
+
+
+    <form action="index1.html" method="post" onsubmit="return validate()" name="form" id="form">
+        <div class="mb-2 row " style="margin-top: 25px;">
+            <label for="staticEmail" class="col-sm-2 col-form-label" id="margin">Username</label>
+            <div class="col-sm-9 ">
+                <input type="text" class="form-control" id="staticEmail" value="" placeholder="username" name="user">
+                <div id="error"></div>
+            </div>
+            <label for="staticEmail" class="col-sm-2 col-form-label" id="margin">Email</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" id="staticEmail" value="" placeholder="email-id" name="email"
+                    id="p">
+                <div id="error1"></div>
+            </div>
+            <label for="staticEmail" class="col-sm-2 col-form-label" id="margin">Number</label>
+            <div class="col-sm-9">
+                <input type="number" class="form-control" id="staticEmail" value="" placeholder="digits" name="mobile">
+                <div id="error2"></div>
+            </div>
+        </div>
+        <div class="mb-1 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label" id="margin">Password</label>
+            <div class="col-sm-9">
+                <input type="password" class="form-control" id="inputPassword" placeholder="password" name="pass">
+                <div id="error3"></div>
+            </div>
+        </div>
+        <div>
+            <button class="button">Singup</button>
+        </div>
+        <a href="login.html" class="sing">login</a>
+    </form>
+
+    <script src="singup.js"></script>
+
+</body>
+
+</html>

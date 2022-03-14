@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Connect</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light " style="background-color: #f8edeb;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: #00b4d8; font-weight: 600; text-decoration: underline;"><i
+                    class="fa-solid fa-link"></i>St@yConnect</a>
+        </div>
+    </nav>
+
+    <form action="index1.html" onsubmit="return validate()" method="post" name="form" id="form">
+        <div class="form-group" id="margin">
+            <label for="exampleInputEmail1">Username</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="username" value="" name="user">
+            <div id="error"></div>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password" name="pass"
+                value="">
+            <div id="error1"></div>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">LOGIN</button>
+        </div>
+        <a href="singup.html" class="singup">Sing Up</a>
+    </form>
+
+
+    <script src="login.js"></script>
+</body>
+
+</html>

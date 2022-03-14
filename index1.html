@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayConnect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="index1.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light  sticky-top" style="background-color: #BFFFF0;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id='op'
+                style="color: #013a63; font-weight: 600; text-decoration: underline;">St@yConnect</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Notifications</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <img src="s4.jpg" alt="profile" class="nav-image">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name=""
+                        id="myInput" onkeyup="searchFun()" style="border-radius: 0.8rem; border: 0.8px solid #6c757d;">
+                    <button class="btn btn-outline-warning" type="submit"
+                        style="background-color: #014f86; color: white; border-radius: 0.6rem;">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr class="header">
+                    <th>Name</th>
+                    <th>M.number</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Matheu</td>
+                    <td>48132186</td>
+                    <td>j@email.com</td>
+                </tr>
+                <tr>
+                    <td>Colt steel</td>
+                    <td>15421455</td>
+                    <td>c@email.com</td>
+                </tr>
+                <tr>
+                    <td>Mad Mordork</td>
+                    <td>21511354</td>
+                    <td>m@email.com</td>
+                </tr>
+                <tr>
+                    <td>Shubham Sahu</td>
+                    <td>15311431</td>
+                    <td>s@email.com</td>
+                </tr>
+                <tr>
+                    <td>Shubham Rai</td>
+                    <td>25413641</td>
+                    <td>r@email.com</td>
+                </tr>
+                <tr>
+                    <td>Lisa Mordork</td>
+                    <td>1546841</td>
+                    <td>l@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </nav>
+
+
+    <div class="container1">
+        `
+        <div class="leftdata">
+            <div class="imp-links">
+                <a href="#"><img src="news.jpg" class="size1">News</a>
+                <a href="#"><img src="friends.png" class="size2">Friends</a>
+                <a href="#"><img src="group.jpg" class="size3">Groups</a>
+                <a href="#"><img src="connect.jpg" class="size3">Connect</a>
+                <a href="#"><img src="save.png" class="size3">Save</a>
+                <a href="#" class="space">See more</a>
+            </div>
+            <p class="heading">Friedns suggestions</p>
+            <div>
+                <div class="aling">
+                    <img src="allu.jpg" alt="" class="allu">
+                    <div class="B1">
+                        <h4 class="h4"> Allu arjun</h4>
+                        <button class="B2">Add Friend</button>
+                    </div>
+                </div>
+                <div class="aling">
+                    <img src="vikas.jpeg" alt="" class="allu">
+                    <div class="B1">
+                        <h4 class="h4"> Vikas jaiswal</h4>
+                        <button class="B2">Add Friend</button>
+                    </div>
+                </div>
+                <div class="aling">
+                    <img src="vijay.jpg" alt="" class="allu">
+                    <div class="B1">
+                        <h4 class="h4"> Vijay sharma</h4>
+                        <button class="B2">Add Friend</button>
+                    </div>
+                </div>
+                <div class="aling">
+                    <img src="chandni.jpg" alt="" class="allu">
+                    <div class="B1">
+                        <h4 class="h4"> Sejal singh</h4>
+                        <button class="B2"> Add Friend</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="maindata">
+            <div class="upload1">
+                <div>
+                    <label for="formFileLg" class="form-label"></label>
+                    <input class="form-control form-control-md" id="formFileLg" type="file">
+                    <input type="submit" name="" id="upload" value="upload">
+                </div>
+            </div>
+            <div class="card">
+                <h5 class="card-title">John Matheu</h5>
+                <div class="card-body">
+                    <p class="card-text">It's good have such a team which cooprates with you and give you
+                        better suggestions</p>
+                </div>
+                <img class="card-img-top" src="Teams.jpg" alt="Card image cap">
+                <br>
+                <textarea name="" id="textarea" cols="30" rows="2" placeholder="Comments.."></textarea>
+                <div class="card-body">
+                    <a href="#" class="card-link">Like</a>
+                    <a href="#" class="card-link">share</a>
+                </div>
+            </div>
+
+            <br>
+            <div class="card">
+                <h5 class="card-title">Mad Mordork</h5>
+                <div class="card-body">
+                    <p class="card-text">Awww... such a view, hope some day i will be there
+                    </p>
+                </div>
+                <img class="card-img-top" src="view1.jpg" alt="Card image cap">
+                <br>
+                <textarea name="" id="textarea" cols="30" rows="2" placeholder="Comments.."></textarea>
+                <div class="card-body">
+                    <a href="#" class="card-link">Like</a>
+                    <a href="#" class="card-link">share</a>
+                </div>
+            </div>
+
+            <br>
+            <div class="card">
+                <h5 class="card-title">Colt Steel</h5>
+                <div class="card-body">
+                    <p class="card-text">Ferrari is always the first choise of the car lovers...</p>
+                </div>
+                <img class="card-img-top" src="car.jpg" alt="Card image cap">
+                <br>
+                <textarea name="" id="textarea" cols="30" rows="2" placeholder="Comments.."></textarea>
+                <div class="card-body">
+                    <a href="#" class="card-link">Like</a>
+                    <a href="#" class="card-link">share</a>
+                </div>
+            </div>
+            <button class="show">Show more</button>
+        </div>
+
+        <div class="rightdata">
+            <div class="sidebar-item">
+                <h4>Events</h4>
+                <a href="#">See all</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>25</h3>
+                    <span><b>FEB</b></span>
+                </div>
+                <div class="right-event">
+                    <span id="visible"> 25-FEB</span>
+                    <h7><b>Battelground gameplay</b></h7>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="add">
+                <h3>Advertisement</h3>
+                <button>Close</button>
+
+            </div>
+            <img src="pubg.jpg" class="pic">
+
+            <div class="add1">
+                <h7>chats</h7>
+                <button>Hide</button>
+            </div>
+            <div class="people-list">
+                <div class=" people">
+                    <img src="2222.jpg" alt="john" id="img1">
+                    <img src="dot.png" alt="" id="img2">
+                </div>
+                <p class="textsize">John Matheu</p>
+            </div>
+            <div class="people-list">
+                <div class=" people">
+                    <img src="s.jpg" alt="john" id="img1">
+                    <img src="dot.png" alt="" id="img2">
+
+                </div>
+                <p class="textsize">Colt Steel</p>
+            </div>
+            <div class="people-list">
+                <div class=" people">
+                    <img src="s1.jpg" alt="john" id="img1">
+                    <img src="dot.png" alt="" id="img2">
+
+                </div>
+                <p class="textsize">Mad Mordork</p>
+            </div>
+            <div class="people-list">
+                <div class=" people">
+                    <img src="s2.jpg" alt="john" id="img1">
+                    <img src="dot.png" alt="" id="img2">
+
+                </div>
+                <p class="textsize">Lisa Mordork</p>
+            </div>
+            <div class="people-list">
+                <div class=" people">
+                    <img src="s3.jpg" alt="john" id="img1">
+                    <img src="dot.png" alt="" id="img2">
+
+                </div>
+                <p class="textsize">Shubham Sahu</p>
+            </div>
+            <div class="people-list">
+                <div class=" people">
+                    <img src="s4.jpg" alt="john" id="img1">
+                    <img src="dot.png" alt="" id="img2">
+
+                </div>
+                <p class="textsize">Shubham Rai</p>
+            </div>
+        </div>
+
+        <script src="index1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

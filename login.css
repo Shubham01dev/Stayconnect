@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(blue.jpg);
+    background-size:auto;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    text-align: center;  
+}
+
+nav .navbar-brand{
+    margin-left: 50px;
+    
+}
+
+form {
+    border-radius: 0.8rem;
+    background-color: azure;
+    margin-top: 12%;
+    border: 1px solid red;
+    height: 50vh;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-weight: 600;
+    
+}
+
+
+#margin{
+    margin-top: 100px;
+}
+
+.button{
+
+ padding: 8px;
+ border-radius: 0.8rem;
+ width: 10rem;
+ margin-left: 200px;
+ margin-top: 10px;
+}
+
+.singup{
+    display: inline-block;
+    margin-top: 10px;
+   
+}
+
+@media(max-width:1064px){
+    form {
+        border-radius: 0.8rem;
+        background-color: azure;
+        margin-top: 12%;
+        border: 1px solid red;
+        height: 50vh;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-weight: 600;
+        
+    }
+
+}
+
+@media(max-width:375px){
+    
+form {
+    border-radius: 0.8rem;
+    background-color: azure;
+    margin-top: 12%;
+    border: 1px solid red;
+    height: 55vh;
+    margin-left: 12%;
+    margin-right: 35%;
+    font-weight: 600;
+    width: 290px;
+    
+}
+
+
+
+}
